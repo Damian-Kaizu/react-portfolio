@@ -20,7 +20,7 @@ const Data = () => {
                     Htoo Myat Kyaw
                     <span>Htoo Myat Kyaw</span>
                     <span>Htoo Myat Kyaw</span>
-                    <span>Han So Hee Yae Kg Lay</span>
+                    <span>A Sone Tote Developer</span>
                 </h2>
             </div>
 
