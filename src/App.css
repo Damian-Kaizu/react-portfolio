@@ -126,6 +126,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
+  padding: 10px 0;
   color: var(--title-color);
 }
 
