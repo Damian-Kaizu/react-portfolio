@@ -2,7 +2,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+.text {
+  color: aquamarine;
+}
 .cta {
   position: relative;
   margin: auto;

@@ -7,6 +7,7 @@ import "./script";
 import { DarkModeProvider } from "./context/DarkModeContext";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
+import Qualification from "./components/qualifications/Qualification";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Home />
           <About />
           <Skills />
+          <Qualification />
         </main>
       </div>
     </DarkModeProvider>

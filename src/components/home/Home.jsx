@@ -3,7 +3,7 @@ import Data from './Data'
 import "./home.css"
 import Social from './Social'
 import ScrollDown from './ScrollDown'
-
+import clickme from './console/clickme'
 import { loadFull } from "tsparticles";
 import particlesOptions from "../../particles.json";
 import particlesOptions1 from "../../particles1.json"
@@ -29,6 +29,7 @@ const Home = () => {
 
                 </div>
                 <ScrollDown />
+
             </div>
         </section >
     )
