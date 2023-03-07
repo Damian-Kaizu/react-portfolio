@@ -38,11 +38,7 @@ const Data = () => {
                 />
             </div>
             <clickme />
-<<<<<<< HEAD
-            <a href="#" className=" btn from-center button--flex">
-=======
             <a href="#" className=" button from-center button--flex">
->>>>>>> de06718 (Made Changes)
                 Say Hello
                 <svg
                     class="button__icon"

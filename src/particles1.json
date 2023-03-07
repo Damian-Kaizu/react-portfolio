@@ -31,11 +31,7 @@
       ]
     },
     "links": {
-<<<<<<< HEAD
-      "color": "#808080",
-=======
       "color": "#d8700e",
->>>>>>> de06718 (Made Changes)
       "distance": 150,
       "enable": true,
       "opacity": 0.5,

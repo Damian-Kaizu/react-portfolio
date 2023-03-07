@@ -3,10 +3,7 @@ import { lightTheme, darkTheme } from '../theme';
 import { useDarkMode } from '../useDarkMode';
 import { FaHeart } from 'react-icons/fa'
 import './header.css'
-<<<<<<< HEAD
-=======
 import '../../script';
->>>>>>> de06718 (Made Changes)
 import Toggler from './Toggler';
 import { DarkModeContext } from '../../context/DarkModeContext';
 const Header = () => {
@@ -21,22 +18,14 @@ const Header = () => {
                     <ul className="nav__list ">
 
                         <li className="nav__item">
-<<<<<<< HEAD
-                            {/* <a href="#home" className={darkMode ? `nav__link active-link` : `nav__link  text-white`}> */}
-=======
                             {/* <a href="#home" className={darkMode ? `nav__link active-link` : `nav__link  text-white`} /> */}
->>>>>>> de06718 (Made Changes)
                             <a href="#home" className={`nav__link active-link`}>
                                 <i className="uil uil-estate nav__icon "></i>Home
                             </a>
                         </li>
 
                         <li className="nav__item">
-<<<<<<< HEAD
-                            {/* <a href="#about" className={darkMode ? `nav__link active-link` : `nav__link  text-white`}> */}
-=======
                             {/* <a href="#about" className={darkMode ? `nav__link active-link` : `nav__link  text-white`} /> */}
->>>>>>> de06718 (Made Changes)
                             <a href="#about" className={`nav__link`}>
                                 <i className="uil uil-user nav__icon"></i>About
                             </a>
@@ -77,11 +66,7 @@ const Header = () => {
                 <div>
 
 
-<<<<<<< HEAD
-                    {/* <Toggler /> */}
-=======
                     <Toggler />
->>>>>>> de06718 (Made Changes)
 
                 </div>
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>

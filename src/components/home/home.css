@@ -1,23 +1,17 @@
-<<<<<<< HEAD
 .light {
   background: #dddddd;
-=======
+}
 .dark {
->>>>>>> de06718 (Made Changes)
   /* background: #fff; */
 }
 
 .home__container {
-<<<<<<< HEAD
-  row-gap: 7rem;
-=======
   border-radius: 10px;
   margin-top: 30px;
   padding: 20px;
   row-gap: 6rem;
   box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-3),
     -0.2rem -0.2rem 1.8rem var(--greyLight-2);
->>>>>>> de06718 (Made Changes)
 }
 
 .home__content {
@@ -30,24 +24,11 @@
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
-<<<<<<< HEAD
-=======
   padding-left: 20px;
->>>>>>> de06718 (Made Changes)
 }
 
 .home__social-icon {
   font-size: 1.25rem;
-<<<<<<< HEAD
-  color: #39ed75;
-  color: var(--text-color);
-}
-.home__social-icon-light {
-  color: #000;
-}
-.home__social-icon:hover {
-  color: var(--title-color);
-=======
 
   color: var(--text-color);
 }
@@ -56,7 +37,6 @@
 }
 .home__social-icon:hover {
   color: #da62006e;
->>>>>>> de06718 (Made Changes)
 }
 
 .home__hand {
@@ -74,33 +54,19 @@
 } */
 .home__title {
   position: relative;
-<<<<<<< HEAD
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2.6rem;
-=======
   top: 30%;
   left: 50%;
   transform: translate(-50%, -70%);
   font-family: "Comfortaa";
   font-size: 2rem;
->>>>>>> de06718 (Made Changes)
   color: transparent;
   text-transform: uppercase;
 }
 h2:hover span:nth-child(1) {
-<<<<<<< HEAD
-  transform: translateY(-0.5rem);
-}
-h2:hover span:nth-child(2) {
-  transform: translateY(0.5rem);
-=======
   transform: translateY(-1rem);
 }
 h2:hover span:nth-child(2) {
   transform: translateY(1rem);
->>>>>>> de06718 (Made Changes)
 }
 h2:hover span:nth-child(3) {
   opacity: 1;
@@ -111,14 +77,9 @@ h2 span:nth-child(2) {
   position: absolute;
   top: 0;
   left: 0;
-<<<<<<< HEAD
-  color: #fff;
-  transition: 0.5s;
-=======
   color: #da6200;
   transition: 0.5s;
 
->>>>>>> de06718 (Made Changes)
   overflow: hidden;
 }
 h2 span:nth-child(1) {
@@ -129,22 +90,6 @@ h2 span:nth-child(2) {
 }
 h2 span:nth-child(3) {
   position: absolute;
-<<<<<<< HEAD
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 350ms ease;
-  font-size: 1rem;
-  color: #000;
-  background: var(--text-color);
-  width: 98.4%;
-  /* padding-left: 2px; */
-  text-align: center;
-  letter-spacing: 0.2rem;
-  word-spacing: 1rem;
-  line-height: 100%;
-=======
   top: 40%;
   left: 40%;
   transform: translate(-50%, -50%);
@@ -161,7 +106,6 @@ h2 span:nth-child(3) {
   line-height: 100%;
   box-shadow: inset 0.2rem 0.2rem 0.5rem var(--white);
   border-radius: 5px;
->>>>>>> de06718 (Made Changes)
 }
 .home__title-container {
 }
@@ -187,19 +131,12 @@ h2 span:nth-child(3) {
 
 .home__description {
   max-width: 400px;
-<<<<<<< HEAD
-  margin-bottom: var(--mb-3);
-}
-.home__img {
-  background: url(../../assets/profile_hmk1.png);
-=======
   height: 50px;
   margin-bottom: var(--mb-3);
   font-family: "Comfortaa";
 }
 .home__img {
   background: url(../../assets/profile.jpg);
->>>>>>> de06718 (Made Changes)
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -447,8 +384,6 @@ h2 span:nth-child(3) {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
-=======
   h2 span:nth-child(3) {
     top: 50%;
     left: 40%;
@@ -457,7 +392,6 @@ h2 span:nth-child(3) {
   .home__title {
     font-size: 2rem;
   }
->>>>>>> de06718 (Made Changes)
   .home__content {
     grid-template-columns: 0.5fr 3fr;
     padding-top: 3.5rem;
