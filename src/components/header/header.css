@@ -17,13 +17,18 @@
   align-items: center;
   column-gap: 1rem;
 }
-
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
 .nav__logo,
 .nav__toggle {
   color: var(--text-color);
   font-weight: var(--font-medium);
 }
-
+.nav__logo {
+  font-family: "Espresso";
+  font-size: 1.5rem;
+}
 .nav__list {
   display: flex;
   column-gap: 2rem;

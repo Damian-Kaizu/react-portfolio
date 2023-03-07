@@ -5,16 +5,19 @@
 }
 
 .skills__content {
-  background-color: var(--text-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* background-color: var(--text-color); */
+  border: 1px solid rgba(0, 0, 0, 0.4);
   padding: 2rem 4rem;
   border-radius: 1.25rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),
+    -0.2rem -0.2rem 0.5rem var(--white);
 }
 
 .skills__title {
   font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-weight: var(--h3-font-size);
   text-align: center;
+  font-family: "Discounted";
   margin-bottom: var(--mb-1-5);
 }
 
@@ -43,12 +46,14 @@
 .skills__name {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  font-family: "Discounted";
   line-height: 18px;
 }
 
 .skills__level {
   font-size: var(--small-font-size);
   color: #000;
+  font-family: "Comfortaa";
 }
 
 /*=============== BREAKPOINTS ===============*/

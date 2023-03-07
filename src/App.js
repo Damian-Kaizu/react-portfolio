@@ -8,6 +8,8 @@ import { DarkModeProvider } from "./context/DarkModeContext";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Qualification from "./components/qualifications/Qualification";
+import Footer from "./components/footer/Footer";
+import ScrollUp from "./components/scrollup/ScrollUp";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
           <Skills />
           <Qualification />
         </main>
+        <Footer />
+        <ScrollUp />
       </div>
     </DarkModeProvider>
   );

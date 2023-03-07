@@ -18,7 +18,7 @@ const Home = () => {
 
     const { darkMode } = useContext(DarkModeContext);
     return (
-        <section className={darkMode ? `home section light` : ` home section dark `} id="home">
+        <section className={darkMode ? `home section ` : ` home section dark `} id="home">
             <Particles options={particlesOptions} init={particlesInit} className={darkMode ? `hide` : `show`} />
             <div className="home__container container grid">
                 <div className="home__content grid">

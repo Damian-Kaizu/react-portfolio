@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
-import { func, string } from 'prop-types';
-// import styled from "styled-components"
+
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
 import { DarkModeContext } from '../../context/DarkModeContext';

@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { lightTheme, darkTheme } from '../theme';
 import { useDarkMode } from '../useDarkMode';
 import { FaHeart } from 'react-icons/fa'
+import Switch from './Switch';
 import './header.css'
 import '../../script';
 import Toggler from './Toggler';
@@ -9,10 +10,15 @@ import { DarkModeContext } from '../../context/DarkModeContext';
 const Header = () => {
     const [Toggle, showMenu] = useState(false);
     const { darkMode } = useContext(DarkModeContext);
+    window.addEventListener("scroll", function () {
+        const header = this.document.querySelector('.header');
+        if (this.scrollY >= 80) header.classList.add("scroll-header");
+        else header.classList.remove("scroll-header");
+    })
     return (
         <header className='header'>
             <nav className='nav container'>
-                <a href="index.html" className='nav__logo'>HTOO </a>
+                <a href="index.html" className='nav__logo'>MY Portfolio</a>
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list ">
@@ -66,8 +72,8 @@ const Header = () => {
                 <div>
 
 
-                    <Toggler />
-
+                    {/* <Toggler /> */}
+                    <Switch />
                 </div>
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <i className="uil uil-apps"></i>

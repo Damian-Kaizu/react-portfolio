@@ -10,6 +10,7 @@
   margin-top: 30px;
   padding: 20px;
   row-gap: 6rem;
+
   box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-3),
     -0.2rem -0.2rem 1.8rem var(--greyLight-2);
 }
@@ -136,7 +137,7 @@ h2 span:nth-child(3) {
   font-family: "Comfortaa";
 }
 .home__img {
-  background: url(../../assets/profile.jpg);
+  background: url(../../assets/profile_hmk1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
