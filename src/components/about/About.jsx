@@ -4,7 +4,7 @@ import AboutImg from "../../assets/about.jpg"
 import Offenbach from "../../assets/offenbach.png"
 import CV from "../../assets/John-Cv.pdf"
 import Info from './Info';
-import ParticleEffectButton from 'react-particle-effect-button'
+
 const About = () => {
   const state = {
     hidden: false
