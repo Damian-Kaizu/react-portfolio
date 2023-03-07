@@ -17,13 +17,6 @@
 }
 
 .about__box {
-<<<<<<< HEAD
-  background-color: var(--text-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.75rem;
-  text-align: center;
-  padding: 1rem 1.25rem;
-=======
   /* background-color: var(--text-color); */
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 0.75rem;
@@ -31,21 +24,10 @@
   padding: 1rem 1.25rem;
   box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),
     -0.2rem -0.2rem 0.5rem var(--white);
->>>>>>> de06718 (Made Changes)
 }
 
 .about__icon {
   font-size: 1.5rem;
-<<<<<<< HEAD
-  color: var(--title-color-dark);
-  margin-bottom: var(--mb-0-5);
-}
-
-.about__title {
-  font-size: var(--medium-font-size);
-  font-weight: var(--font-medium);
-  color: #000000;
-=======
   color: var(--title-color);
   margin-bottom: var(--mb-0-5);
 }
@@ -57,16 +39,11 @@
   font-size: var(--medium-font-size);
   font-weight: var(--font-medium);
   color: #d8700e;
->>>>>>> de06718 (Made Changes)
 }
 
 .about__subtitle {
   font-size: var(--small-font-size);
-<<<<<<< HEAD
-  color: var(--title-color-dark);
-=======
   color: var(--title-color);
->>>>>>> de06718 (Made Changes)
 }
 
 .about__description {
