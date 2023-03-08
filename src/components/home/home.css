@@ -149,10 +149,6 @@ h2 span:nth-child(3) {
   animation: profile__animation 8s ease-in-out infinite 1s;
 }
 
-.offenbach {
-  background: url(../../assets/offenbach.png);
-}
-
 .btn {
   position: relative;
   padding: 1.4rem 2rem;
