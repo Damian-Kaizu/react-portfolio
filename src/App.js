@@ -21,8 +21,8 @@ const App = () => {
           <About />
           <Skills />
           <Qualification />
+          <Footer />
         </main>
-        <Footer />
         <ScrollUp />
       </div>
     </DarkModeProvider>

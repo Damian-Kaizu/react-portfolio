@@ -18,7 +18,7 @@
 }
 
 .qualification__button:hover {
-  color: chocolate;
+  color: rgb(141, 127, 117);
 }
 
 .qualification__icon {
@@ -27,7 +27,7 @@
 }
 
 .qualification__active {
-  color: chocolate;
+  color: rgb(34, 22, 13);
 }
 
 .qualification__sections {
