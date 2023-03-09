@@ -72,7 +72,7 @@ const Qualification = () => {
 
                             <div className="qualification__data">
                                 <div>
-                                    <h3 className="qualification__title">Web Development(Laravel) </h3>
+                                    <h3 className="qualification__title">Web Development <br/>(Laravel) </h3>
                                     <span className="qualification__subtitle">Code Lab</span>
                                     <div className="qualification__calendar">
                                         <i className="uil uil-calendar-alt"></i>2022

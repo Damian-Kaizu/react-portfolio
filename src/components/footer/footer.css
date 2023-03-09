@@ -1,8 +1,7 @@
 .footer {
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
-  margin: 0 20rem;
-  margin-bottom: 10px;
+
   box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),
     -0.2rem -0.2rem 0.5rem var(--white);
 }
@@ -59,4 +58,10 @@
   font-family: "Espresso";
   text-align: center;
   font-size: var(--smaller-font);
+}
+
+@media screen and (max-width: 350px) {
+  .footer {
+    margin: 0 20rem;
+  }
 }

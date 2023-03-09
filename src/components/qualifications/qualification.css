@@ -52,6 +52,8 @@
 }
 
 .qualification__title {
+  width: 30px;
+
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
