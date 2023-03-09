@@ -10,6 +10,7 @@ import Skills from "./components/skills/Skills";
 import Qualification from "./components/qualifications/Qualification";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
+import { Zoom } from "react-reveal";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Header />
         <main className="main">
           <Home />
+
           <About />
           <Skills />
           <Qualification />

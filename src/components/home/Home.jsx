@@ -10,6 +10,7 @@ import particlesOptions1 from "../../particles1.json"
 import Particles from "react-particles";
 import { DarkModeContext } from '../../context/DarkModeContext'
 import HomeTitle from './HomeTitle'
+import { Zoom, Fade, Rotate } from 'react-reveal'
 const Home = () => {
 
     const particlesInit = useCallback((main) => {
@@ -20,17 +21,20 @@ const Home = () => {
     return (
         <section className={darkMode ? `home section ` : ` home section dark `} id="home">
             <Particles options={particlesOptions} init={particlesInit} className={darkMode ? `hide` : `show`} />
-            <div className="home__container container grid">
-                <div className="home__content grid">
-                    <Social />
-                    <div className={darkMode ? `home__img ` : `home__img`}></div>
+            <Fade top>
 
-                    <Data />
+                <div className="home__container container grid">
+                    <div className="home__content grid">
+                        <Social />
+                        <div className={darkMode ? `home__img ` : `home__img`}></div>
+
+                        <Data />
+
+                    </div>
+                    <ScrollDown />
 
                 </div>
-                <ScrollDown />
-
-            </div>
+            </Fade>
         </section >
     )
 }
