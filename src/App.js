@@ -11,7 +11,7 @@ import Qualification from "./components/qualifications/Qualification";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import { Zoom } from "react-reveal";
-
+import SwiperContainer from "../src/components/swiper/SwiperContainer";
 const App = () => {
   return (
     <DarkModeProvider>
@@ -19,10 +19,10 @@ const App = () => {
         <Header />
         <main className="main">
           <Home />
-
           <About />
           <Skills />
           <Qualification />
+          <SwiperContainer />
           <Footer />
         </main>
         <ScrollUp />

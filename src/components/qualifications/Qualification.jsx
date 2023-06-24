@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./qualification.css"
-import Wobble from 'react-reveal/Wobble'
+import Slide from 'react-reveal/Slide'
 
 const Qualification = () => {
     const [toggleState, settoggleState] = useState(1);
@@ -8,8 +8,8 @@ const Qualification = () => {
         settoggleState(index);
     }
     return (
-        <Wobble duration={2000}>
-            <section className="qualification section">
+        <Slide left duration={2000}>
+            <section className="qualification section" id='qualifications'>
                 <h2 className="section__title">Qualification</h2>
                 <span className="section__subtitle">My personal Journey</span>
 
@@ -72,7 +72,7 @@ const Qualification = () => {
 
                             <div className="qualification__data">
                                 <div>
-                                    <h3 className="qualification__title">Web Development <br/>(Laravel) </h3>
+                                    <h3 className="qualification__title">Web Development <br />(Laravel) </h3>
                                     <span className="qualification__subtitle">Code Lab</span>
                                     <div className="qualification__calendar">
                                         <i className="uil uil-calendar-alt"></i>2022
@@ -158,7 +158,7 @@ const Qualification = () => {
                     </div>
                 </div>
             </section >
-        </Wobble>
+        </Slide>
     )
 }
 
